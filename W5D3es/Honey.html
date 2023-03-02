@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:576px) {
+            .navbar ul li {
+            list-style-type: none;
+            }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            margin:0;
+            padding:0;
+            background-color: #fbf7e3;
+            justify-content: space-between;  
+            border-radius: 25px;
+            flex-wrap: wrap;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .button{
+            flex-grow: 1;
+            background-color: #f3df85;
+            color:#742305;
+            border: none;
+            margin: 0.1em;
+            padding:2em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            border-radius: 25%;
+        }
+        .buttonBig{
+           flex-grow: 5;
+           background-color: #f3df85;
+            color:#742305;
+            border: none;
+            margin: 0.1em;
+            padding:3em;
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bold;
+           font-size: 16px;
+           border-radius: 25%;
+         }
+         .card{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fbf7e3;
+            color: #742305;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .imgHoney{
+            width:250px;
+        }
+         }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="contentNav">
+            <ul>
+                <button class="button"><li></li>Our Honey</button>
+                <button class="button"><li></li>Trace Honey </button>
+                <button class="buttonBig"><li>Shop</li></button>
+                <button class="button"><li>Facilities</li></button>
+                <button class="button"><li>contact</li></button>
+            </ul>
+        </div>
+    </nav>
+    <main>
+       
+        <div class="card"> 
+            <h1>Best Selling Product</h1>
+            <img src="" alt="honey" class="imgHoney">
+            <h3>100% Bio Honey</h3>
+            <div class="contentCard"><p>Italian,not tradet</p></div>
+            <div class="prezzo"><p>7$/kg</p></div>
+           <button class="button">Add to Cart</button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </div>
+    </footer>
+</body>
+</html>
